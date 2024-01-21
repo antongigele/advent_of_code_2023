@@ -1,0 +1,12 @@
+/target
+.DS_Store
+
+*.txt
+main
+main_a
+main_b
+
+.*.sw[po]
+target/
+**/*.rs.bk
+.idea/
