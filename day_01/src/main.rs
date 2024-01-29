@@ -1,10 +1,9 @@
 use std::fs::File;
 use std::io::{BufRead, BufReader};
 
-fn main() -> std::io::Result<()> {
-    // day_01_part1("demo_input_part1.txt")?;
-    day_01_part2("demo_input_part2.txt")?;
-    Ok(())
+fn main() {
+    // let _ = day_01_part1("demo_input_part1.txt");
+    let _ = day_01_part2("demo_input_part2.txt");
 }
 
 pub fn day_01_part1(filepath: &str) -> std::io::Result<()>{
