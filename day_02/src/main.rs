@@ -1,6 +1,5 @@
 use std::fs::File;
 use std::io::{BufRead, BufReader};
-// use std::collections::HashMap;
 
 fn main() {
     let _ = day_02_part1("input.txt");
